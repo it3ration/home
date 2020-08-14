@@ -1,2 +1,5 @@
+# Add the apps to your path.
+export PATH=$PATH:"~/apps"
+
 # Setup environment variables for linuxbrew.
 eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
