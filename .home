@@ -90,7 +90,7 @@ fi
 alias emacs="emacs -nw"
 
 # emacs daemon / client
-alias ed="emacs --daemon"
+alias ed="emacs --daemon && emacsclient -t"
 alias ee="emacsclient -t"
 
 # completions for ed / ee
