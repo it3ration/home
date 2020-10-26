@@ -103,5 +103,8 @@ export GOPATH=$HOME/go
 # sbcl
 alias sbcl="rlwrap sbcl"
 
+# Use universal-ctags in gtags.
+alias gtags="gtags --gtagslabel=new-ctags"
+
 # start in ~ please
 cd ~
