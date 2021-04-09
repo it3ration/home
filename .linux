@@ -1,5 +1,8 @@
 # Add the apps to your path.
 export PATH=$PATH:"~/apps"
 
+# Add an alias for xdg-open.
+alias open="xdg-open"
+
 # Setup environment variables for linuxbrew.
 eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
