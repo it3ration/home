@@ -53,8 +53,8 @@ alias cp="cp -i"
 alias mv="mv -i"
 
 # ls
-alias la="ls -lhatr"
-alias ll="ls -lhatr"
+alias la="ls -lha"
+alias ll="ls -lha"
 
 # du / df
 alias du="du -h"
