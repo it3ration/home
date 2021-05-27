@@ -87,7 +87,8 @@ fi
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
 # emacs
-alias emacs="emacs -nw"
+alias emacs="TERM=xterm-24bit emacs -nw"
+alias emacsclient="TERM=xterm-24bit emacsclient"
 
 # emacs daemon / client
 alias ed="emacs --daemon && emacsclient -t"
