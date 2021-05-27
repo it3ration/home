@@ -1,6 +1,5 @@
 [Desktop Entry]
 Type=Application
 Name=Unity Hub
-Icon=foocorp-painter-pro
 Exec=/home/kevin/Programs/UnityHub.AppImage
 Categories=Development
