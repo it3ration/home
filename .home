@@ -98,6 +98,10 @@ alias ee="emacsclient -t"
 complete -o bashdefault -o default -F _fzf_path_completion ed
 complete -o bashdefault -o default -F _fzf_path_completion ee
 
+# gopath
+export GOPATH="$(go env GOPATH)"
+export PATH="${PATH}:${GOPATH}/bin"
+
 # sbcl
 alias sbcl="rlwrap sbcl"
 
