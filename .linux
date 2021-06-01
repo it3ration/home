@@ -1,5 +1,5 @@
 # Add the apps to your path.
-export PATH=$PATH:"~/apps"
+export PATH=$PATH:"~/Programs"
 
 # Add an alias for xdg-open.
 alias open="xdg-open"
