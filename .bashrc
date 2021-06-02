@@ -6,4 +6,8 @@ if [ "$BASH" ]; then
     if [ -f ~/.linux ]; then
         . ~/.linux
     fi
+
+    if [ -f ~/.work ]; then
+        . ~/.work
+    fi
 fi

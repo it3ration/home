@@ -1,0 +1,2 @@
+# Setup kubernetes environment variables.
+export KUBECONFIG=$HOME/.kube/config:$HOME/.styra/kube-config:$HOME/.styra/oidc-kube-config
