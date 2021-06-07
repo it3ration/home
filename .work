@@ -1,2 +1,8 @@
 # Setup kubernetes environment variables.
 export KUBECONFIG=$HOME/.kube/config:$HOME/.styra/kube-config:$HOME/.styra/oidc-kube-config
+
+# Setup an alias for kubectl.
+alias k="kubectl"
+
+# Completions for the above alias.
+complete -F __start_kubectl k
