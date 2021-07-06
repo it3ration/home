@@ -108,5 +108,8 @@ alias sbcl="rlwrap sbcl"
 # Use universal-ctags in gtags.
 alias gtags="gtags --gtagslabel=new-ctags"
 
+# Shorten fdfind to fd.
+alias fd="fdfind"
+
 # start in ~ please
 cd ~
